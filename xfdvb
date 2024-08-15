@@ -1,0 +1,18 @@
+Proceso clasificacion de los triangulos
+	la1<-0
+	la2<-0
+	la3<-0
+	t1<-'equilatero'
+	t2<-'isosceles'
+	t3<-'escaleno;
+	Leer la1,la2,la3
+	Si (la1=la2 Entonces
+		Si expresion_logica Entonces
+			acciones_por_verdadero
+		Sino
+			acciones_por_falso
+		FinSi
+	Sino
+		acciones_por_falso
+	FinSi
+FinProceso
